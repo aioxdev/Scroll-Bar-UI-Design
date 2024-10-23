@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aioxd\\source\\repos\\Youtube\\ScrollUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{030B00E5-891F-45DC-8C08-2D559CE2A4C2}|ScrollUI\\ScrollUI.csproj|c:\\users\\aioxd\\source\\repos\\youtube\\scrollui\\scrollui\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{030B00E5-891F-45DC-8C08-2D559CE2A4C2}|ScrollUI\\ScrollUI.csproj|solutionrelative:scrollui\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{030B00E5-891F-45DC-8C08-2D559CE2A4C2}|ScrollUI\\ScrollUI.csproj|c:\\users\\aioxd\\source\\repos\\youtube\\scrollui\\scrollui\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{030B00E5-891F-45DC-8C08-2D559CE2A4C2}|ScrollUI\\ScrollUI.csproj|solutionrelative:scrollui\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\aioxd\\source\\repos\\Youtube\\ScrollUI\\ScrollUI\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "ScrollUI\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\aioxd\\source\\repos\\Youtube\\ScrollUI\\ScrollUI\\MainWindow.axaml",
+              "RelativeToolTip": "ScrollUI\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-22T14:00:42.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\aioxd\\source\\repos\\Youtube\\ScrollUI\\ScrollUI\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "ScrollUI\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\aioxd\\source\\repos\\Youtube\\ScrollUI\\ScrollUI\\MainWindow.axaml.cs",
+              "RelativeToolTip": "ScrollUI\\MainWindow.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T14:00:36.723Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" Width="600" Height="450"
+        x:Class="ScrollUI.MainWindow"
+        Title="ScrollBar UI Design"
+	    Background="White">
+	
+	<Window.Styles>
+		<Style Selector="ScrollViewer">
+			<Style Selector="^ ScrollBar">
+				<Style Selector="^:vertical">
+					<Style Selector="^ /template/ Border#VerticalRoot">
+						<Setter Property="Background" Value="White"/>
+						<Setter Property="BoxShadow" Value="inset 0 0 10 0 #e0e0e0"/>
+						<Setter Property="CornerRadius" Value="50"/>
+					</Style>
+					<Style Selector="^ /template/ Rectangle#TrackRect">
+						<Setter Property="Fill" Value="Transparent"/>
+					</Style>
+				</Style>
+				<Style Selector="^ Thumb">
+					<Setter Property="MinWidth" Value="40"/>
+					<Setter Property="Template">
+						<ControlTemplate>
+							<Grid Margin="6">
+								<Border Background="#FDFDFD" CornerRadius="50"/>
+							</Grid>
+						</ControlTemplate>
+					</Setter>
+					<Style Selector="^ Border">
+						<Setter Property="BoxShadow">
+							<Setter.Value>
+								inset 0 3 10 0 white,
+								inset 0 -3 10 0 #25000000 
+							</Setter.Value>
+						</Setter>
+					</Style>
+				</Style>
+				<Style Selector="^ RepeatButton">
+					<Setter Property="IsVisible" Value="False"/>
+				</Style>
+			</Style>
+		</Style>	
+	</Window.Styles>
+		
+	<Grid Margin="20">
+		<ScrollViewer AllowAutoHide="False">
+			<Grid Height="1500">
+				
+			</Grid>
+		</ScrollViewer>
+	</Grid>
+</Window>
